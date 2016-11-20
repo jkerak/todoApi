@@ -1,10 +1,15 @@
 package com.jkerak.api;
 import com.jkerak.Todo;
 import com.jkerak.TodosApi;
+import org.springframework.web.bind.annotation.RestController;
 
+@RestController
 public class TodosApiImpl implements TodosApi {
 
     public Todo todosIdGet(Long id) {
-        return null;
+        Todo todo = new Todo();
+        todo.setDescription("description");
+        todo.setId(1L);
+        return todo;
     }
 }
