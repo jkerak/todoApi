@@ -74,7 +74,7 @@
 							<apiFile>${basedir}/src/main/resources/swagger-codegen/swagger.yaml</apiFile>
 							<apiPackage>com.jkerak</apiPackage>
 							<modelPackage>com.jkerak</modelPackage>
-							<language>springinterfacesResponseEntity</language>
+							<language>springinterfaces</language>
 						</configuration>
 					</execution>
 				</executions>

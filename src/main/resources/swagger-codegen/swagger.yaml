@@ -4,8 +4,8 @@ info:
   title: TodoApi
   description: |
     Find source code of this API [here](https://github.com/jkerak/todoApi)
-#host: petstore-api.herokuapp.com
-#basePath: /api
+host: jkerak-todoapi.herokuapp.com
+basePath: /api
 consumes:
   - application/json
 produces:
@@ -32,5 +32,5 @@ definitions:
       id:
         type: integer
         format: int64
-      descriptions:
+      description:
         type: string
