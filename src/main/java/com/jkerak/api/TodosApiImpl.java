@@ -8,7 +8,7 @@ public class TodosApiImpl implements TodosApi {
 
     public Todo todosIdGet(Long id) {
         Todo todo = new Todo();
-        todo.setDescription("description");
+        todo.setDescription("Finish me!");
         todo.setId(1L);
         return todo;
     }
